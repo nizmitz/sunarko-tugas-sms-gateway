@@ -32,19 +32,7 @@ class SmsGateway {
         $query = array_merge(['phone_number'=>$to, 'message'=>$message, 'device_id' => $device], $options);
         return $this->makeRequest('/api/v4/message/send','POST',$query);
     }
-/*
- * need rework or read the apicall or actually make new function in the sms section
- *
- *
- *
-    }
 
-    function sendMessagestoManyNumbers($to, $message, $device, $options=[]) {
-        $query = array_merge(['phone_number'=>$to, 'message'=>$message, 'device_id' => $device], $options);
-        return $this->makeRequest('/api/v4/message/send','POST',$query);
-    }
-
- */
     function sendManyMessages ($data) {
         $query['data'] = $data;
         return $this->makeRequest('/api/v4/message/send','POST', $query);
