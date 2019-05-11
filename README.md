@@ -13,17 +13,17 @@ beware this program will use your phone credits to send the sms
 # Setup and installation
 
 1. Goto: https://smsgateway.me/ and Signup.
-	*email and password will be used to login to the app in your phone.
+	* email and password will be used to login to the app in your phone.
 2. Download the application in https://apkpure.com/es/sms-gateway-api/networked.solutions.sms.gateway.api
-	*the original app is no longer available in the playstore/ region lock but not sure.
+	* the original app is no longer available in the playstore/ region lock but not sure.
 3. Login to with your credentials in the app.
-	*sometimes it kinda buggy and say wrong password, try changing your password in the web if that happen(personal experience). 
+	* sometimes it kinda buggy and say wrong password, try changing your password in the web if that happen(personal experience). 
 4. I assume you guys will use XAMPP so put download the the repo and put it on ~/XAMPP/htdocs/nameyourfolder
 
 5. Goto: https://smsgateway.me/ login and then go to settings overthere u can get your API Token you can copy it now 
 
 6. Open sendSms.php in a text editor and uncomment the $token = "your-api-token-here"; and put your token here. since you don't use the external files u might want to comment or delete the require_once('apitoken.php);
-	*alternatively you can make a php file and paste the token there.
+	* alternatively you can make a php file and paste the token there.
 
 7. For the Device ID you can get the device id from the app of your phone or get it from the smsgateway web.
 
