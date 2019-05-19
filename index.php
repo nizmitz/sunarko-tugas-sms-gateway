@@ -23,7 +23,7 @@ require_once ('smsGatewayV4.php');
                 <form class="form-sms" action="sendSms.php" method="post">
                 <input type="text" name="device_id" placeholder="no device yang digunakan">
                 <input type="text" name="phonenumber_id" placeholder="No telefon yang dituju">
-                <input type="text" name="message_id" placeholder"Masukan teks yang ingin di kirim">
+                <input type="text" name="message_id" placeholder="Masukan teks yang ingin di kirim">
                 <button type="submit" name="submit-sms">Kirim</button>
                 </form>
             </section>

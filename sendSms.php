@@ -27,6 +27,7 @@ if(isset($_POST['submit-sms']))
 			$result = $smsGateway->sendMessageToNumber($phone_number, $message, $deviceID, $options);
 			print_r($result);
 			exit();
+			endforeach;
 
 			/*still do know why the for doesn't api call json twice instead it only write once?
 			 *in the documentation it use message1 + message2 = messages into one and then print it both?
