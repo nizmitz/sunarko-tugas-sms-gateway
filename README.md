@@ -1,16 +1,18 @@
-# Smsgateway for mr.sunarko assignment
+# this repo is not longer maintained because the course already finished
+
+## Smsgateway for mr.sunarko assignment
 
 this program is used for mr sunarko assignment in network programming course.
 beware this program will use your phone credits to send the sms
 
-# Use case
+## Use case
  
 -  Manually inserting your device id
 -  Send Single message 
 -  Send Multple message
 -  Typing your own messages / no templates
 
-# Setup and installation
+## Setup and installation
 
 1. Goto: https://smsgateway.me/ and Signup.
 	* email and password will be used to login to the app in your phone.
@@ -27,13 +29,13 @@ beware this program will use your phone credits to send the sms
 
 7. For the Device ID you can get the device id from the app of your phone or get it from the smsgateway web.
 
-# Currently Working 
+## Currently Working 
  * Currently trying to get a simple crud and getting number from mysqli database
  * Get Device Id form or something?
  * A working login system for the web? but its not a priority right now
  * CSS for the front end
 
-# Documentation and Reference
+## Documentation and Reference
 
 * <https://github.com/hasahmad/HasSms>
 * <https://github.com/Ludplay/smsgatewayme-php-endpoint>
@@ -41,5 +43,5 @@ beware this program will use your phone credits to send the sms
 
     Im using this two repos for the base 
 
-# Personal note
+## Personal note
  This assignment will be my first git repo. sorry for the inconviences, also i think i wont be accepting any pull request yet since im not that adept yet at branching build and git in overall
